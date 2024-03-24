@@ -43,7 +43,8 @@ body {
 
 @media(max-width:1080px){
     .element{
-/* display: none; */
+width: 300px;
+left: 0;
     }
 }
 
