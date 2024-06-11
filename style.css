@@ -125,25 +125,7 @@ body {
     opacity: 0.7;
 }
 
-.nav__list {
-    display: flex;
-    align-items: center;
-    gap: 98px;
-}
 
-@media(max-width: 1280px) {
-    .nav__list {
-        padding: 0 50px;
-    }
-}
-
-@media(max-width: 980px) {
-    .nav__list {
-        flex-direction: column;
-        padding: 0;
-        gap: 10px;
-    }
-}
 
 @media(max-width: 1280px) {
     .road-map {
@@ -161,11 +143,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.nav__a {
-    font-weight: 500;
-    font-style: 30px;
-    color: var(--text-color);
-}
 
 .nav__list-icons {
     display: flex;
@@ -173,14 +150,7 @@ html {
     gap: 30px;
 }
 
-.nav__item {
-    transition: opacity, 0.5s;
-}
 
-
-.nav__item:hover {
-    opacity: 0.7;
-}
 
 p {
     color: white;
@@ -762,22 +732,7 @@ h2 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:1500px) {
+@media (max-width:1600px) {
     .toggle-btn {
         display: none;
     }
