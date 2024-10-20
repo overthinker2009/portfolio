@@ -702,6 +702,7 @@ h2 {
 
 @media(max-width: 540px) {
     .nav {
+        display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 30px;

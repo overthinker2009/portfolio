@@ -1,3 +1,4 @@
+
 function toggleMenu() {
     let dropdownContent = document.getElementById("myDropdown");
     let button = document.querySelector(".toggle-btn");
@@ -9,4 +10,3 @@ function toggleMenu() {
         button.textContent = "close";
     }
 }
-
